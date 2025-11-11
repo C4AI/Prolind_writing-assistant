@@ -1,0 +1,8 @@
+{
+  "task": "translation",
+  "sentence": "Se kuere.",
+  "options": {
+    "src_lang": "yrl",
+    "tgt_lang": "por"
+  }
+}
