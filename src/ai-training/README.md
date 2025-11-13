@@ -24,7 +24,6 @@ Typical use cases:
 
 ## 2. Directory Structure (template)
 
-_Adapt this section to match your actual files._
 
 ```text
 src/ai-training/
