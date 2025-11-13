@@ -2,9 +2,6 @@
 
 This directory contains the code used to **train and evaluate the models** behind the PROLIND Writing Assistant (PROLIND / PROLIND_writing-assistant project).
 
-> ⚠️ **Note:** This README is a template based on the intended purpose of this module.  
-> Please adapt script names, paths, and configuration file names to match your actual code in `src/ai-training/`.
-
 ---
 
 ## 1. Overview
