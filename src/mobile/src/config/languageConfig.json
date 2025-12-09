@@ -1,0 +1,15 @@
+{
+    "indigenousLanguages": ["Nheengatu"],
+    "targetLanguages": ["Português", "Inglês", "Nheengatu"],
+    "languages": {
+      "Nheengatu": {
+        "orthographies": {
+          "Navarro": ["ẽ", "ĩ", "ũ"],
+          "Casasnovas": ["ẽ", "ĩ", "ũ"],
+          "Alto do Rio Negro": ["ẽ", "ĩ", "ũ"],
+          "Baixo Amazonas": ["ẽ", "ĩ", "ũ", "ý", "ỹ"],
+          "Outras": ["ẽ", "ĩ", "ũ", "ý", "ỹ", "ñ"]
+        }
+      }
+    }
+  }

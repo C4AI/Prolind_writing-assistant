@@ -1,0 +1,62 @@
+pipeline {
+    agent any
+
+    environment {
+        IBM_CLOUD_API_KEY = credentials("ibm_cloud_api_key")
+        CLOUDANT_API_KEY = credentials("cloudant_api_key")
+        PATH = "/opt/homebrew/bin:/usr/local/bin:/opt/homebrew/opt/node@20/bin:/opt/homebrew/opt/node@20/bin:/Users/enrico/Library/Android/sdk/emulator:/Users/enrico/Library/Android/sdk/tools:/Users/enrico/Library/Android/sdk/tools/bin:/Users/enrico/Library/Android/sdk/platform-tools:/opt/homebrew/opt/openjdk/bin:/bin:/opt/homebrew/bin:/usr/bin:/bin:/opt/homebrew/opt/node@22/bin:/opt/homebrew/bin/gh:/opt/homebrew/opt/openjdk/bin:/Users/enrico/.console-ninja/.bin::/usr/local/ibmcloud/bin:$PATH"
+    }
+
+    tools {
+        nodejs "node20"
+    }
+
+    stages {
+        stage("Install Packages") {
+            steps {
+                script {
+                    sh "npm install --legacy-peer-deps"
+                }
+            }
+        }
+        stage("Build") {
+            steps {
+                script {
+                    sh "cd android && ./gradlew init"
+                    sh "cd android && ./gradlew clean"
+                    sh "cd android && ./gradlew :app:assembleRelease"
+                    def version = sh(script: "cat android/app/src/main/assets/version.txt", returnStdout: true)
+                    sh "cp ./android/app/build/outputs/apk/release/app-release.apk apk_downloader/public/ALI-v${version}.apk"
+                    sh "cp ./android/app/src/main/assets/version.txt apk_downloader/public/version.txt"
+                }
+            }
+        }
+        stage("Deploy") {
+            steps {
+                sh "ibmcloud config --check-version=false"
+
+                                sh "ibmcloud login --apikey ${IBM_CLOUD_API_KEY} -r us-south"
+
+                sh "ibmcloud target -g brl-all"
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    sh "ibmcloud plugin install code-engine"
+                }
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    sh "ibmcloud plugin install cr"
+                }
+                sh "ibmcloud ce project select --name 4739-indigenous"
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    sh "podman machine start"
+                }
+                sh "ibmcloud cr login --client podman"
+                script {
+                        sh "cd apk_downloader && podman build --platform=linux/amd64 --build-arg VITE_API_URL=https://-escrita-linguas-indigenas-backend.y6dbcklf96p.us-south.codeengine.appdomain.cloud . -t indigenous-mobile-assistant:v0"
+                        sh "podman tag indigenous-mobile-assistant:v0 us.icr.io/brl-indigenous/indigenous-mobile-assistant:0"
+                        sh "podman push --log-level=debug us.icr.io/brl-indigenous/indigenous-mobile-assistant:0"
+                        sh "ibmcloud ce application update --name indigenous-mobile-assistant"
+                }
+
+            }
+        }   
+    }
+}

@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_showpassword.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_showpassword.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.ALI.app-release-34:/xml_network_security_config.xml.flat",
+        "source": "com.ALI.app-main-35:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_logoc4ai.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_logoc4ai.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_whitearrow.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_whitearrow.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_thumbsuppressed.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_thumbsuppressed.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_hidepassword.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_hidepassword.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_feedback.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_feedback.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_thumbsdownpressed.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_thumbsdownpressed.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_thumbsup.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_thumbsup.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/drawable-mdpi_src_assets_thumbsdown.png.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-res-29:/drawable-mdpi/src_assets_thumbsdown.png"
+    },
+    {
+        "merged": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-release-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/julionogima/.gradle/daemon/8.8/com.ALI.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

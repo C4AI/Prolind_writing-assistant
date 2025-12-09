@@ -1,0 +1,48 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "node --env-file=.env dist/index.js",
+    "build": "tsc",
+    "dev": "tsc -w & nodemon --env-file=.env dist/index.js"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/supertest": "^6.0.2",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "connect-timeout": "^1.9.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "http-errors": "^2.0.0",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nano": "^11.0.3",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@types/body-parser": "^1.19.5",
+    "@types/connect-timeout": "^0.0.39",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/http-errors": "^2.0.4",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.14.11",
+    "@types/request": "^2.48.12",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.5.3"
+  }
+}

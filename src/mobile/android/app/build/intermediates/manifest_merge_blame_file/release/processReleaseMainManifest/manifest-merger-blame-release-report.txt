@@ -1,0 +1,132 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ALI"
+4    android:versionCode="58"
+5    android:versionName="3.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:3:3-65
+11-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:3:20-62
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:react-native-community_netinfo] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-79
+12-->[:react-native-community_netinfo] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[:react-native-community_netinfo] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-76
+13-->[:react-native-community_netinfo] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->[:react-native-fs] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-81
+14-->[:react-native-fs] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] /Users/julionogima/.gradle/caches/8.8/transforms/0c02aa65ff8b11d5022566d0302b25e2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.ALI.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] /Users/julionogima/.gradle/caches/8.8/transforms/0c02aa65ff8b11d5022566d0302b25e2/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] /Users/julionogima/.gradle/caches/8.8/transforms/0c02aa65ff8b11d5022566d0302b25e2/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.ALI.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] /Users/julionogima/.gradle/caches/8.8/transforms/0c02aa65ff8b11d5022566d0302b25e2/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] /Users/julionogima/.gradle/caches/8.8/transforms/0c02aa65ff8b11d5022566d0302b25e2/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:5:3-27:17
+24        android:name="com.ALI.MainApplication"
+24-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:7:5-36
+25        android:allowBackup="false"
+25-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:11:5-32
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] /Users/julionogima/.gradle/caches/8.8/transforms/0c02aa65ff8b11d5022566d0302b25e2/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:9:5-39
+29        android:label="Pinimasa yẽgatu rupi"
+29-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:8:5-41
+30        android:networkSecurityConfig="@xml/network_security_config"
+30-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:6:5-65
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:10:5-50
+32        android:supportsRtl="true"
+32-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:13:5-31
+33        android:theme="@style/AppTheme" >
+33-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:12:5-36
+34        <activity
+34-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:14:5-26:16
+35            android:name="com.ALI.MainActivity"
+35-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:15:7-35
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+36-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:18:7-116
+37            android:exported="true"
+37-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:21:7-30
+38            android:label="Pinimasa yẽgatu rupi"
+38-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:16:7-43
+39            android:launchMode="singleTask"
+39-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:19:7-38
+40            android:screenOrientation="unspecified"
+40-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:17:7-46
+41            android:windowSoftInputMode="adjustResize" >
+41-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:20:7-49
+42            <intent-filter>
+42-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:22:7-25:23
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:23:9-61
+43-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:23:17-58
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:24:9-69
+45-->/Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/android/app/src/main/AndroidManifest.xml:24:19-66
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[:react-native-webview] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-16:20
+50            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+50-->[:react-native-webview] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-83
+51            android:authorities="com.ALI.fileprovider"
+51-->[:react-native-webview] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-64
+52            android:exported="false"
+52-->[:react-native-webview] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-37
+53            android:grantUriPermissions="true" >
+53-->[:react-native-webview] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:13-47
+54            <meta-data
+54-->[:react-native-webview] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:13-15:63
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->[:react-native-webview] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:17-67
+56                android:resource="@xml/file_provider_paths" />
+56-->[:react-native-webview] /Users/julionogima/Documents/GitHub/indigenous_mobile_assistant-OS/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:17-60
+57        </provider>
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/julionogima/.gradle/caches/8.8/transforms/b49772d412e698ac43d13e607ca64155/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/julionogima/.gradle/caches/8.8/transforms/b49772d412e698ac43d13e607ca64155/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+60            android:authorities="com.ALI.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/julionogima/.gradle/caches/8.8/transforms/b49772d412e698ac43d13e607ca64155/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/julionogima/.gradle/caches/8.8/transforms/b49772d412e698ac43d13e607ca64155/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/julionogima/.gradle/caches/8.8/transforms/b49772d412e698ac43d13e607ca64155/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/julionogima/.gradle/caches/8.8/transforms/b49772d412e698ac43d13e607ca64155/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/julionogima/.gradle/caches/8.8/transforms/b49772d412e698ac43d13e607ca64155/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/julionogima/.gradle/caches/8.8/transforms/5d6bcc831bb7fbe537a65d55f24ce6d0/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/julionogima/.gradle/caches/8.8/transforms/5d6bcc831bb7fbe537a65d55f24ce6d0/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/julionogima/.gradle/caches/8.8/transforms/5d6bcc831bb7fbe537a65d55f24ce6d0/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+68        </provider>
+69
+70        <meta-data
+70-->[com.facebook.soloader:soloader:0.11.0] /Users/julionogima/.gradle/caches/8.8/transforms/8af7816c87096248c10fec2f6ac0967c/transformed/soloader-0.11.0/AndroidManifest.xml:12:9-14:37
+71            android:name="com.facebook.soloader.enabled"
+71-->[com.facebook.soloader:soloader:0.11.0] /Users/julionogima/.gradle/caches/8.8/transforms/8af7816c87096248c10fec2f6ac0967c/transformed/soloader-0.11.0/AndroidManifest.xml:13:13-57
+72            android:value="false" />
+72-->[com.facebook.soloader:soloader:0.11.0] /Users/julionogima/.gradle/caches/8.8/transforms/8af7816c87096248c10fec2f6ac0967c/transformed/soloader-0.11.0/AndroidManifest.xml:14:13-34
+73    </application>
+74
+75</manifest>

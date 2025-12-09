@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Calibri, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+div[contenteditable]:empty:before {
+    content: attr(data-placeholder);
+    color: #aaa; /* Cor do placeholder */
+    pointer-events: none; /* Evita que o placeholder seja selecionável */
+}
